@@ -1,0 +1,27 @@
+
+Call:
+glm(formula = sev_formula, family = Gamma(link = "log"), data = train_sev)
+
+Coefficients:
+                                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                       14.72397    0.02470 596.193  < 2e-16 ***
+Safety_Package_Level1              0.11294    0.01710   6.605 4.13e-11 ***
+Safety_Package_Level2              0.39551    0.02236  17.686  < 2e-16 ***
+Vehicle_ClassLuxury_Comfort        0.64167    0.02704  23.729  < 2e-16 ***
+Vehicle_ClassPerformance_Car      -0.01083    0.02950  -0.367   0.7135    
+Vehicle_ClassStandard_Economy     -0.36458    0.02256 -16.161  < 2e-16 ***
+Driver_ProfileRisky_History        0.04048    0.02099   1.928   0.0539 .  
+Driver_ProfileSenior_Driver        0.02104    0.02012   1.046   0.2955    
+Driver_ProfileYoung_Female         0.02848    0.03413   0.835   0.4040    
+Driver_ProfileYoung_Male_HighRisk -0.01138    0.02958  -0.385   0.7004    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for Gamma family taken to be 0.7151022)
+
+    Null deviance: 12472  on 12003  degrees of freedom
+Residual deviance: 10342  on 11994  degrees of freedom
+AIC: 377952
+
+Number of Fisher Scoring iterations: 5
+

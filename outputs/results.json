@@ -1,0 +1,38 @@
+{
+  "metrics": {
+    "rmse_freq": 0.2762,
+    "gini_index": 0.3247
+  },
+  "paradox": [
+    {
+      "Safety_Package_Level": "0",
+      "Police_Sayisi": 90251,
+      "Ort_Frekans": 0.0875,
+      "SE_Frekans": 0.0002,
+      "Ort_Siddet": 2499554.2745,
+      "SE_Siddet": 3747.8891,
+      "Ort_Risk_Primi": 220080.1679,
+      "SE_Risk_Primi": 605.4037
+    },
+    {
+      "Safety_Package_Level": "1",
+      "Police_Sayisi": 69723,
+      "Ort_Frekans": 0.0776,
+      "SE_Frekans": 0.0002,
+      "Ort_Siddet": 2794632.7437,
+      "SE_Siddet": 4757.9982,
+      "Ort_Risk_Primi": 217860.8679,
+      "SE_Risk_Primi": 682.7894
+    },
+    {
+      "Safety_Package_Level": "2",
+      "Police_Sayisi": 40025,
+      "Ort_Frekans": 0.0613,
+      "SE_Frekans": 0.0002,
+      "Ort_Siddet": 3707888.3001,
+      "SE_Siddet": 8340.4003,
+      "Ort_Risk_Primi": 228550.9185,
+      "SE_Risk_Primi": 947.365
+    }
+  ]
+}

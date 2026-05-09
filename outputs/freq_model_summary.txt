@@ -1,0 +1,108 @@
+
+Call:
+glm(formula = freq_formula, family = poisson(link = "log"), data = dataTrain)
+
+Coefficients:
+                                                                 Estimate
+(Intercept)                                                     -2.006584
+Safety_Package_Level1                                           -0.119342
+Safety_Package_Level2                                           -0.356726
+Driver_ProfileRisky_History                                      0.171814
+Driver_ProfileSenior_Driver                                      0.272100
+Driver_ProfileYoung_Female                                       0.534868
+Driver_ProfileYoung_Male_HighRisk                                0.598738
+Vehicle_ClassLuxury_Comfort                                      0.027866
+Vehicle_ClassPerformance_Car                                     0.270656
+Vehicle_ClassStandard_Economy                                    0.020300
+Driver_ProfileRisky_History:Vehicle_ClassLuxury_Comfort          0.100152
+Driver_ProfileSenior_Driver:Vehicle_ClassLuxury_Comfort          0.006039
+Driver_ProfileYoung_Female:Vehicle_ClassLuxury_Comfort          -0.092630
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassLuxury_Comfort    0.140751
+Driver_ProfileRisky_History:Vehicle_ClassPerformance_Car         0.058887
+Driver_ProfileSenior_Driver:Vehicle_ClassPerformance_Car         0.083870
+Driver_ProfileYoung_Female:Vehicle_ClassPerformance_Car         -0.050327
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassPerformance_Car   0.095154
+Driver_ProfileRisky_History:Vehicle_ClassStandard_Economy        0.001688
+Driver_ProfileSenior_Driver:Vehicle_ClassStandard_Economy        0.030690
+Driver_ProfileYoung_Female:Vehicle_ClassStandard_Economy         0.010795
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassStandard_Economy  0.039310
+                                                                Std. Error
+(Intercept)                                                       0.044319
+Safety_Package_Level1                                             0.019714
+Safety_Package_Level2                                             0.025902
+Driver_ProfileRisky_History                                       0.062710
+Driver_ProfileSenior_Driver                                       0.060186
+Driver_ProfileYoung_Female                                        0.099740
+Driver_ProfileYoung_Male_HighRisk                                 0.089129
+Vehicle_ClassLuxury_Comfort                                       0.058848
+Vehicle_ClassPerformance_Car                                      0.064036
+Vehicle_ClassStandard_Economy                                     0.049002
+Driver_ProfileRisky_History:Vehicle_ClassLuxury_Comfort           0.084380
+Driver_ProfileSenior_Driver:Vehicle_ClassLuxury_Comfort           0.081740
+Driver_ProfileYoung_Female:Vehicle_ClassLuxury_Comfort            0.138854
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassLuxury_Comfort     0.119522
+Driver_ProfileRisky_History:Vehicle_ClassPerformance_Car          0.092581
+Driver_ProfileSenior_Driver:Vehicle_ClassPerformance_Car          0.088703
+Driver_ProfileYoung_Female:Vehicle_ClassPerformance_Car           0.151011
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassPerformance_Car    0.129728
+Driver_ProfileRisky_History:Vehicle_ClassStandard_Economy         0.070893
+Driver_ProfileSenior_Driver:Vehicle_ClassStandard_Economy         0.067906
+Driver_ProfileYoung_Female:Vehicle_ClassStandard_Economy          0.112599
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassStandard_Economy   0.100386
+                                                                z value
+(Intercept)                                                     -45.276
+Safety_Package_Level1                                            -6.054
+Safety_Package_Level2                                           -13.772
+Driver_ProfileRisky_History                                       2.740
+Driver_ProfileSenior_Driver                                       4.521
+Driver_ProfileYoung_Female                                        5.363
+Driver_ProfileYoung_Male_HighRisk                                 6.718
+Vehicle_ClassLuxury_Comfort                                       0.474
+Vehicle_ClassPerformance_Car                                      4.227
+Vehicle_ClassStandard_Economy                                     0.414
+Driver_ProfileRisky_History:Vehicle_ClassLuxury_Comfort           1.187
+Driver_ProfileSenior_Driver:Vehicle_ClassLuxury_Comfort           0.074
+Driver_ProfileYoung_Female:Vehicle_ClassLuxury_Comfort           -0.667
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassLuxury_Comfort     1.178
+Driver_ProfileRisky_History:Vehicle_ClassPerformance_Car          0.636
+Driver_ProfileSenior_Driver:Vehicle_ClassPerformance_Car          0.946
+Driver_ProfileYoung_Female:Vehicle_ClassPerformance_Car          -0.333
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassPerformance_Car    0.733
+Driver_ProfileRisky_History:Vehicle_ClassStandard_Economy         0.024
+Driver_ProfileSenior_Driver:Vehicle_ClassStandard_Economy         0.452
+Driver_ProfileYoung_Female:Vehicle_ClassStandard_Economy          0.096
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassStandard_Economy   0.392
+                                                                Pr(>|z|)    
+(Intercept)                                                      < 2e-16 ***
+Safety_Package_Level1                                           1.42e-09 ***
+Safety_Package_Level2                                            < 2e-16 ***
+Driver_ProfileRisky_History                                      0.00615 ** 
+Driver_ProfileSenior_Driver                                     6.16e-06 ***
+Driver_ProfileYoung_Female                                      8.20e-08 ***
+Driver_ProfileYoung_Male_HighRisk                               1.85e-11 ***
+Vehicle_ClassLuxury_Comfort                                      0.63583    
+Vehicle_ClassPerformance_Car                                    2.37e-05 ***
+Vehicle_ClassStandard_Economy                                    0.67868    
+Driver_ProfileRisky_History:Vehicle_ClassLuxury_Comfort          0.23526    
+Driver_ProfileSenior_Driver:Vehicle_ClassLuxury_Comfort          0.94110    
+Driver_ProfileYoung_Female:Vehicle_ClassLuxury_Comfort           0.50470    
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassLuxury_Comfort    0.23895    
+Driver_ProfileRisky_History:Vehicle_ClassPerformance_Car         0.52473    
+Driver_ProfileSenior_Driver:Vehicle_ClassPerformance_Car         0.34440    
+Driver_ProfileYoung_Female:Vehicle_ClassPerformance_Car          0.73893    
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassPerformance_Car   0.46326    
+Driver_ProfileRisky_History:Vehicle_ClassStandard_Economy        0.98100    
+Driver_ProfileSenior_Driver:Vehicle_ClassStandard_Economy        0.65131    
+Driver_ProfileYoung_Female:Vehicle_ClassStandard_Economy         0.92362    
+Driver_ProfileYoung_Male_HighRisk:Vehicle_ClassStandard_Economy  0.69537    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 66141  on 159999  degrees of freedom
+Residual deviance: 65357  on 159978  degrees of freedom
+AIC: 89777
+
+Number of Fisher Scoring iterations: 6
+
