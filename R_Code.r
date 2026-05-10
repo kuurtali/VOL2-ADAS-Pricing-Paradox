@@ -3,6 +3,14 @@
 
 rm(list = ls())
 
+# Set working directory to script location (works when run from any folder)
+script_dir <- tryCatch(
+  dirname(normalizePath(sys.frame(1)$ofile)),
+  error = function(e) getwd()
+)
+setwd(script_dir)
+cat("Calisma dizini:", getwd(), "\n")
+
 required_pkgs <- c("dplyr", "statmod", "caret", "ggplot2",
                    "jsonlite", "gridExtra", "corrplot", "scales")
 for (pkg in required_pkgs) {
