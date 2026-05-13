@@ -3,9 +3,6 @@ SQL_Output2.csv
 R_Output.csv
 ham_data_final.csv
 
-# Power BI binary (too large, regenerated from R_Output.csv)
-*.pbix
-
 # R session artifacts
 .Rhistory
 .RData
