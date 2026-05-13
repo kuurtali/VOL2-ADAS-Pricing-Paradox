@@ -188,6 +188,7 @@ Open `ADAS_Actuarial_Pricing2.pbix` in Power BI Desktop. If prompted to refresh 
 ## 🔗 Related Projects
 
 - **[VOL1 — ADAS Pricing Paradox](https://github.com/kuurtali/ADAS-Pricing-Paradox)** — The original analysis with 100K policies, simpler GLM structure, and city/age segmentation. Vol 2 extends Vol 1 with interaction terms, Gini validation, and a richer SQL feature pipeline.
+- **[Actuarial Risk Analysis with Shiny & GLM](https://github.com/kuurtali/actuarial-analysis-w-shiny-and-glm)** — Interactive Shiny dashboard for real-time insurance risk scoring using Logistic Regression (GLM).
 
 ---
 
