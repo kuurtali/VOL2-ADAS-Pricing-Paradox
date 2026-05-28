@@ -24,6 +24,27 @@ This creates the **ADAS Pricing Paradox**:
 
 ---
 
+## 💼 Yönetici Özeti (Executive Summary)
+
+Eğer bir sigorta şirketi yöneticisi olsaydım, bu analizin bulgularına dayanarak alacağım stratejik kararlar şunlar olurdu:
+1. **İleri ADAS Sistemlerinde İndirim Değil, Sürşarj Uygulanmalı:** ADAS Seviye 2 araçlar kaza frekansını %30 düşürse de, hasar anında ortaya çıkan sensör ve parça maliyeti %48 arttığı için **net risk primi artmaktadır**. Bu araçlara "güvenli araç" indirimi vermek aktüeryal olarak zararlıdır.
+2. **Genç Sürücülerde Sensör Maliyeti Daha Kritik:** Genç ve riskli sürücülerde kaza yapma olasılığı zaten yüksek olduğundan, ADAS 2 donanımı hasar şiddetini katlayarak artırır. Tarife yapısında Genç Sürücü × ADAS 2 etkileşimine (interaction) ekstra sürşarj uygulanmalıdır.
+3. **Temel ADAS (Seviye 1) En Kârlı Segment:** Kaza frekansını anlamlı ölçüde düşüren ancak parça maliyeti astronomik olmayan ADAS 1 araçları, net primde en dengeli riski sunar. Büyüme stratejisi bu segmente odaklanmalıdır.
+
+---
+
+## 📈 Model Performansı: Vol 1 vs Vol 2 Karşılaştırması
+
+Vol 2 sürümünde modele eklenen çapraz etkileşim (Driver × Vehicle) değişkenleri sayesinde modelin ayrıştırma gücünde anlamlı bir artış sağlanmıştır.
+
+| Metrik | Vol 1 (Temel GLM) | Vol 2 (Gelişmiş Etkileşimli GLM) | İyileşme / Değişim |
+|--------|-------------------|----------------------------------|--------------------|
+| **Gini Index** | 0.285 | **0.325** | **+%14.0** Modelin ayrıştırma gücü arttı |
+| **Frekans RMSE** | 0.291 | **0.276** | **-%5.1** Hata payı düştü |
+| **Model Tipi** | Sadece Ana Etkiler | Çapraz Etkileşimler (Interactions) | Heterojenite (Overdispersion) daha iyi modellendi |
+
+---
+
 ## 🔍 Key Findings (Vol 2)
 
 - **Frequency ↓ but Severity ↑**: Higher ADAS = fewer claims, but each claim is far more expensive due to sensor/camera repair costs
