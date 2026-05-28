@@ -94,8 +94,8 @@ server <- function(input, output, session) {
       HTML(paste0(
         "<div style='text-align:center; padding: 20px;'>",
         "<h2 style='color:#888;'>Tahmini Saf Risk Primi</h2>",
-        "<h1 style='color:#00FF00; font-size:4rem; font-weight:bold;'>", format(round(risk_premium, 0), big.mark="."), " TL</h1>",
-        "<p>Beklenen Frekans: <b>", round(final_freq, 3), "</b> | Beklenen Şiddet: <b>", format(round(final_sev, 0), big.mark="."), " TL</b></p>",
+        "<h1 style='color:#00FF00; font-size:4rem; font-weight:bold;'>", format(round(risk_premium, 0), big.mark=".", decimal.mark=","), " TL</h1>",
+        "<p>Beklenen Frekans: <b>", format(round(final_freq, 3), decimal.mark=","), "</b> | Beklenen Şiddet: <b>", format(round(final_sev, 0), big.mark=".", decimal.mark=","), " TL</b></p>",
         "</div>"
       ))
     })
@@ -114,7 +114,7 @@ server <- function(input, output, session) {
       
       ggplot(df, aes(x = Category, y = Premium, fill = Color)) +
         geom_bar(stat = "identity", width = 0.5) +
-        geom_text(aes(label = paste0(format(round(Premium,0), big.mark="."), " TL")), vjust = -0.5, color="white", size=6) +
+        geom_text(aes(label = paste0(format(round(Premium,0), big.mark=".", decimal.mark=","), " TL")), vjust = -0.5, color="white", size=6) +
         scale_fill_manual(values = c("Base" = "#888888", "Final" = "#ff416c")) +
         theme_minimal() +
         labs(title = "ADAS Paradoks Etkisi (Fiyat Değişimi)", x = "", y = "Prim (TL)") +
