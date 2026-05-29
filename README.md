@@ -61,6 +61,12 @@ Vol 2 sürümünde modele eklenen çapraz etkileşim (Driver × Vehicle) değiş
 
 This project now includes a **fully interactive R Shiny application** featuring a Cyberpunk (bslib cyborg) UI. You can test the ADAS Pricing Paradox live by changing driver, vehicle, and ADAS levels to see the real-time effect on Frequency, Severity, and the Final Premium via a dynamic Waterfall chart.
 
+<p align="left">
+  <a href="https://5pax70-mehmet0ali-kurt.shinyapps.io/vol2-adas-pricing-paradox/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Online-brightgreen?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
+
 - **To run locally:** Open `app.R` in RStudio and click "Run App".
 
 ---
