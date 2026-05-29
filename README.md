@@ -57,10 +57,18 @@ Vol 2 sürümünde modele eklenen çapraz etkileşim (Driver × Vehicle) değiş
 
 ---
 
+## 🚀 Live Interactive Pricing Engine (R Shiny)
+
+This project now includes a **fully interactive R Shiny application** featuring a Cyberpunk (bslib cyborg) UI. You can test the ADAS Pricing Paradox live by changing driver, vehicle, and ADAS levels to see the real-time effect on Frequency, Severity, and the Final Premium via a dynamic Waterfall chart.
+
+- **To run locally:** Open `app.R` in RStudio and click "Run App".
+
+---
+
 ## 🛠️ Pipeline
 
 ```
-SQL (Feature Engineering) → R (Two-Part GLM) → R_Output.csv → Power BI (Dashboard)
+SQL (Feature Engineering) → R (Two-Part GLM) → R Shiny Engine & Power BI
 ```
 
 | Step | Tool | File | Output |
