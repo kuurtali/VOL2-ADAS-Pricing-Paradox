@@ -1,6 +1,14 @@
 # 🚗 VOL2 — ADAS Pricing Paradox (Advanced Actuarial Edition)
 
 <p align="center">
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shiny-00449E?style=for-the-badge&logo=R&logoColor=white" />
+  <img src="https://img.shields.io/badge/GLM%20Pricing-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power-BI&logoColor=black" />
+  <img src="https://img.shields.io/badge/Actuarial%20Science-brightgreen?style=for-the-badge" />
+</p>
+
+<p align="center">
   <a href="https://5pax70-mehmet0ali-kurt.shinyapps.io/vol2-adas-pricing-paradox/">
     <img src="https://img.shields.io/badge/🚀_Live_Demo-Online-brightgreen?style=for-the-badge" alt="Live Demo" />
   </a>
