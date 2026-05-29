@@ -1,5 +1,11 @@
 # 🚗 VOL2 — ADAS Pricing Paradox (Advanced Actuarial Edition)
 
+<p align="center">
+  <a href="https://5pax70-mehmet0ali-kurt.shinyapps.io/vol2-adas-pricing-paradox/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Online-brightgreen?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
+
 **An End-to-End Actuarial Project** — Vol 2 extends the original analysis with advanced GLM interactions, a Poisson–Gamma two-part model, Gini Index, Lift Charts, and a richer feature engineering pipeline, all feeding a live Power BI dashboard.
 
 > *Do ADAS-equipped vehicles actually cost less to insure — or does the rising repair cost of sensor-laden cars cancel out the safety benefit?*
@@ -54,20 +60,6 @@ Vol 2 sürümünde modele eklenen çapraz etkileşim (Driver × Vehicle) değiş
 - **Overdispersion** is controlled: Driver×Vehicle interaction terms absorb cross-risk heterogeneity
 
 ![Lorenz Curve](outputs/figures/gini_lorenz.png)
-
----
-
-## 🚀 Live Interactive Pricing Engine (R Shiny)
-
-This project now includes a **fully interactive R Shiny application** featuring a Cyberpunk (bslib cyborg) UI. You can test the ADAS Pricing Paradox live by changing driver, vehicle, and ADAS levels to see the real-time effect on Frequency, Severity, and the Final Premium via a dynamic Waterfall chart.
-
-<p align="left">
-  <a href="https://5pax70-mehmet0ali-kurt.shinyapps.io/vol2-adas-pricing-paradox/">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-Online-brightgreen?style=for-the-badge" alt="Live Demo" />
-  </a>
-</p>
-
-- **To run locally:** Open `app.R` in RStudio and click "Run App".
 
 ---
 
