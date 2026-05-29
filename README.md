@@ -180,7 +180,7 @@ VOL2-ADAS-Pricing-Paradox/
 
 ---
 
-## 🚀 How to Run
+## 🔬 Reproducibility
 
 ### Prerequisites
 
