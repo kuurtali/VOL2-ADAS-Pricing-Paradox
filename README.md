@@ -16,6 +16,8 @@
 
 **An End-to-End Actuarial Project** — Vol 2 extends the original analysis with advanced GLM interactions, a Poisson–Gamma two-part model, Gini Index, Lift Charts, and a richer feature engineering pipeline, all feeding a live Power BI dashboard.
 
+> 🔬 **Technical Note:** The Shiny app uses **real GLM coefficients** extracted from the trained models — 22 frequency coefficients (including Driver×Vehicle interaction terms) and 11 severity coefficients are hardcoded for instant prediction. No simplified multipliers are used.
+
 > *Do ADAS-equipped vehicles actually cost less to insure — or does the rising repair cost of sensor-laden cars cancel out the safety benefit?*
 
 ---
