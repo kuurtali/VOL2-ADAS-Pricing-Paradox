@@ -228,7 +228,7 @@ Open `ADAS_Actuarial_Pricing2.pbix` in Power BI Desktop. If prompted to refresh 
 |---------|-------------|
 | [ADAS Pricing Paradox (VOL1)](https://github.com/kuurtali/ADAS-Pricing-Paradox) | Original analysis with 100K policies, Poisson + Gamma GLM, city/age segmentation |
 | [Actuarial Shiny Dashboard](https://github.com/kuurtali/actuarial-analysis-w-shiny-and-glm) | Interactive R Shiny risk scoring with Logistic GLM (AUC 0.828) |
-| [Tubitak-2209A-MCAware](https://github.com/kuurtali/Tubitak-2209A-MCAware) | TÜBİTAK 2209-A: anti-predictive behavior in DL stock prediction on BIST |
+| [MC-AWARE](https://github.com/kuurtali/MCAware) | Independent deep-learning research on majority-class traps and anti-predictive behavior in BIST direction forecasting |
 | [Direction Forecasting BIST-BES](https://github.com/kuurtali/direction-forecasting-bist-bes) | Academic paper: ARIMA vs LSTM vs 1D-CNN on BIST & pension funds |
 
 ---
