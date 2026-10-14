@@ -1,6 +1,9 @@
 # ADAS Pricing Paradox · Vol 2
 
-[Live demo](https://5pax70-mehmet0ali-kurt.shinyapps.io/vol2-adas-pricing-paradox/) · [Vol 1](https://github.com/kuurtali/ADAS-Pricing-Paradox) · [Portfolio](https://github.com/kuurtali) · [Report an issue](https://github.com/kuurtali/VOL2-ADAS-Pricing-Paradox/issues)
+[Portfolio](https://github.com/kuurtali) · [All projects](https://github.com/kuurtali#projects) · [Report an issue](https://github.com/kuurtali/VOL2-ADAS-Pricing-Paradox/issues)
+
+
+[Live demo](https://5pax70-mehmet0ali-kurt.shinyapps.io/vol2-adas-pricing-paradox/) · [Vol 1](https://github.com/kuurtali/ADAS-Pricing-Paradox)
 
 A synthetic-data actuarial pricing demonstration with approximately **200,000 policies**, driver–vehicle interaction terms, Poisson/Gamma models and saved Gini/lift analyses.
 
